@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentasAPI", "VentasAPI\VentasAPI.csproj", "{39DFDC29-A122-4983-BBA7-7A15A7939E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentasApiXUnitTest", "VentasApiXUnitTest\VentasApiXUnitTest.csproj", "{437487B5-4D2B-4D38-8C63-BBD41441F39C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39DFDC29-A122-4983-BBA7-7A15A7939E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39DFDC29-A122-4983-BBA7-7A15A7939E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39DFDC29-A122-4983-BBA7-7A15A7939E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39DFDC29-A122-4983-BBA7-7A15A7939E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437487B5-4D2B-4D38-8C63-BBD41441F39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437487B5-4D2B-4D38-8C63-BBD41441F39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437487B5-4D2B-4D38-8C63-BBD41441F39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437487B5-4D2B-4D38-8C63-BBD41441F39C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8139E554-1F62-4BEE-99E7-024BCE675DF6}
+	EndGlobalSection
+EndGlobal
