@@ -18,14 +18,14 @@ namespace VentasAPI.Controllers
         }
 
         [HttpGet(Name = "GetProductos")]
-        public IActionResult GetAll()
+        public ActionResult GetAll()
         {
             var productos = _productosService.GetProductos();
 
             if (productos.Any())
                 return Ok(productos);
 
-            return StatusCode(StatusCodes.Status204NoContent);
+            return StatusCode(StatusCodes.Status204NoContent);            
         }
         [HttpGet("{id:int}")]
         public IActionResult GetById(int id)
